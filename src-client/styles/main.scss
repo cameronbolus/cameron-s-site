@@ -1,9 +1,13 @@
+
 * {
 	box-sizing: border-box;
 }
 
 body{
-	font-family: Helvetica;
+	font-family: sans-serif;;
+	font-weight: lighter;
+	margin: 0;
+	position: relative;
 }
 
 img {
@@ -11,8 +15,176 @@ img {
 	display: block;
 }
 
-h1{
+.spaced-out{
+	letter-spacing: 2px;
+}
+
+.reg-navigation{
+	color: #541817;
+	padding-top: 10px;
+}
+
+.reg-navigation > * {
+	display: inline-block;
+}
+
+.logo{
+	width: 30%;
+	// margin-right: 46%;
+	padding-left: 30px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.nav-options > *{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.nav-options{
+	vertical-align: top;
+	padding-top: 20px;
+	font-size: 18px;
+	float: right;
+	margin-right: 30px;
+}
+
+.hover-color:hover{
+	cursor: pointer;
+	color: #aaa;
+}
+
+.pic-and-bio{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+
+.pic-and-bio > * {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.all-bio{
+	width: 70%;
+}
+
+.all-bio .intro{
+	color: #541817;
+	font-size: 42px;
+	margin-left: 100px;
+	margin-bottom: 15px;
+}
+
+.my-pic{
+	width: 30%;
+}
+
+.intro{
+	margin-top: 25px;
+}
+
+.bio{
+	margin-left: 100px;
+	line-height: 150%;
+}
+
+span{
+	font-size: 30px;
+}
+
+.footer{
+	background-color: #541817;
+	color: white;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	font-size: 14px;
+}
+
+.footer > * {
+	display: inline-block;
+	width: 33%;
 	text-align: center;
-	font-size: 10vw;
-	color: #2574A9;	
+}
+
+.footer img{
+	width: 1.5%;
+}
+
+.email > * {
+	display: inline-block;
+}
+
+.email{
+	padding-left: 10px;
+}
+
+.phone{
+	padding-right: 10px;
+}
+
+.resume{
+	margin-top: 75px;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+}
+
+.portfolio{
+	margin-top: 70px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+.project{
+	margin-bottom: 50px;
+	margin-top: 50px;
+	width: 100%;
+	text-align: center;
+}
+
+.project > *{
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.project-description{
+	margin-left: 100px;
+}
+
+.title{
+	font-size: 26px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.first-title {
+	font-size: 36px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.project-description-left{
+	margin-right: 100px;
+}
+
+// .designs img{
+// 	width: 50%;
+// }
+
+.designs img{
+	display: inline-block;
+	width: 50%;
 }
