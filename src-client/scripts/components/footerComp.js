@@ -22,10 +22,10 @@ export const FooterComponent = React.createClass({
 			<footer className="footer spaced-out">
 				<div className="email">
 					{/* <img src="../images/email.png"/> */}
-        	<a href="mailto:cameron.bolus@gmail.com">cameron.bolus@gmail.com</a>
+        	<a className="clickable" href="mailto:cameron.bolus@gmail.com">cameron.bolus@gmail.com</a>
 				</div>
 				<div className="github">
-					<a href="https://github.com/cameronbolus" target="_blank">github.com/cameronbolus</a>
+					<a className="clickable" href="https://github.com/cameronbolus" target="_blank">github.com/cameronbolus</a>
 				</div>
 				<div className="phone">
 					<p>+1 843 991 8364</p>
