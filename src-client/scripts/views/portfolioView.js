@@ -27,7 +27,7 @@ export const PorfolioPageView = React.createClass({
              <p className="first-title spaced-out">Projects</p>
 						 <div className="project">
                <div className="project-description-left">
-                 <p className="title">Current Working On: Palmetto Paw Prints</p>
+                 <p className="title">Currently Working On: Palmetto Paw Prints</p>
                  <p>Currently designing and building the website for Palmetto Paw Prints, a non-profit company that donates earnings from clothing sales to animal shelters in South Carolina. This site will allow general users to find out more information about the company, shop their retail, and contact the company by email.</p>
                  <p className="title">Created With</p>
                  <p>Javascript, HTML, React.js, SASS, Backbone.js</p>
